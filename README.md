@@ -1,3 +1,16 @@
+# Purpose
+Fork PortAudio and build on my own as the latest stable release [(v19.0.7)](https://github.com/PortAudio/portaudio/releases/tag/v19.7.0) hasn't yet included WASAPI loopback.
+
+# Build Static Libs (Windows)
+```
+mkdir build
+cd build
+cmake .. /DBUILD_SHARED_LIBS=OFF
+```
+* VS to open build/PortAudio.sln
+* Build "portaudio" project
+* The static libs (portaudio.lib) will apear under build/Debug, build/Release, etc.
+
 # PortAudio - portable audio I/O library
 
 PortAudio is a portable audio I/O library designed for cross-platform
