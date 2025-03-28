@@ -1,5 +1,5 @@
 # Purpose
-Fork PortAudio and build on my own as the latest stable release [(v19.0.7)](https://github.com/PortAudio/portaudio/releases/tag/v19.7.0) hasn't yet included WASAPI loopback.
+PortAudio has supported WASAPI loopback but the latest stable release [(v19.0.7)](https://github.com/PortAudio/portaudio/releases/tag/v19.7.0) hasn't included it. So I forked this repo and build on my own.
 
 ## Build Static Libs (Windows)
 ```
@@ -11,7 +11,9 @@ cmake .. /DBUILD_SHARED_LIBS=OFF
 * Build "portaudio" project
 * The static libs (portaudio.lib) will apear under build/Debug, build/Release, etc.
 
-## -------------------- Original README.md -------------------------
+
+
+### -------------------- Original README.md -------------------------
 
 # PortAudio - portable audio I/O library
 
